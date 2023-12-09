@@ -33,7 +33,7 @@ function menuOpen() {
         <nav aria-label="Top Navigation">
             <ul class="lg:flex lg:justify-between lg:items-center lg:gap-x-8 uppercase lg:text-Paragraph&Social font-semibold absolute z-10 
                 lg:static bg-Dark-Bg lg:bg-white lg:bg-none text-Light-Bg text-center min-h-screen w-full lg:min-h-min pt-4 lg:pt-0
-                bg-[url('/images/bg-pattern-mobile-nav.svg')] bg-no-repeat bg-bottom"
+                bg-[url('/images/bg-pattern-mobile-nav.svg')] bg-no-repeat bg-bottom bg-contain"
                 :class="[open ? 'left-0' : 'left-[100%]']"
             >
                 <li class="my-10 lg:my-6"
