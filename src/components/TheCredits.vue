@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <p class="text-xs text-center text-gray-400 my-4 flex justify-center items-center gap-x-1">
+    <p class="text-xs text-center text-gray-400 py-4 flex justify-center items-center gap-x-1">
         Challenge by 
         <a class="font-bold hover:text-Titles&Hover" :href="linkFrontendMentor" target="_blank">
             Frontend Mentor
